@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/advance"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:background="#f0f0f0"
+            android:textColor="#000000"
+            android:focusableInTouchMode="false" />
+
+        <Button
+            android:id="@+id/searchD"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Search"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/actual_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#ffffff"
+        android:background="#000000">
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/txt_doc"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#000000"
+        android:layout_gravity="center"
+        android:layout_height="1dp">
+
+        <EditText
+            android:id="@+id/txt_id"
+            android:text="Hii"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+        <Button
+            android:id="@+id/save"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="Save"/>
+
+    </LinearLayout>
+
+</LinearLayout>

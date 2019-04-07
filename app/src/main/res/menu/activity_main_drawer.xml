@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/images"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Images" />
+        <item
+            android:id="@+id/videos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Videos" />
+
+        <item
+            android:id="@+id/pdf"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="PDF Files"/>
+
+        <item
+            android:id="@+id/doc"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Word Files"/>
+
+        <item
+            android:id="@+id/audios"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Audios" />
+        <item
+            android:id="@+id/all"
+            android:icon="@drawable/folder"
+            android:title="All" />
+    </group>
+
+    <item android:title="Advance options">
+        <menu>
+            <item
+                android:id="@+id/search"
+                android:icon="@drawable/sea"
+                android:title="Advance Search" />
+
+        </menu>
+    </item>
+
+</menu>
